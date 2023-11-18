@@ -19,14 +19,14 @@ class MyApp extends ConsumerWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Sample app',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.limeAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amberAccent),
         useMaterial3: true,
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Hello World'),
+          title: const Text('App Bar Title'),
         ),
         body: Center(
           child: Text(name),
